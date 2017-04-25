@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="hello.QueryField">
+  <grid id="27dc6" binding="QueryP" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="450" height="300"/>
+    </constraints>
+    <properties>
+      <maximumSize width="32767" height="32767"/>
+      <minimumSize width="450" height="300"/>
+      <preferredSize width="450" height="300"/>
+    </properties>
+    <border type="line">
+      <color color="-16250872"/>
+    </border>
+    <children>
+      <component id="ad2" class="javax.swing.JButton" binding="searchButton" default-binding="true">
+        <constraints border-constraint="West"/>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="11"/>
+          <text value="Search"/>
+        </properties>
+      </component>
+      <component id="a9cb0" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <font name="Source Code Pro" size="14" style="0"/>
+          <minimumSize width="300" height="150"/>
+          <preferredSize width="300" height="200"/>
+          <tabSize value="10"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
